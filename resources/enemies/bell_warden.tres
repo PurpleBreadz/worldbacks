@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="WBEnemyData" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/combat/enemy_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+display_name = "The Bell Warden"
+max_health = 340.0
+max_posture = 120.0
+speed = 54.0
+damage = 22.0
+posture_damage = 30.0
+attack_range = 62.0
+detection_range = 330.0
+startup = 0.64
+active = 0.18
+recovery = 0.9
+reward = 8
+body_color = Color(0.43, 0.41, 0.34, 1)

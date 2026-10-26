@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="WBEnemyData" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/combat/enemy_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+display_name = "Fallen Sentinel"
+max_health = 105.0
+max_posture = 95.0
+speed = 40.0
+damage = 22.0
+posture_damage = 35.0
+attack_range = 43.0
+detection_range = 200.0
+startup = 0.72
+active = 0.18
+recovery = 1.0
+reward = 4
+body_color = Color(0.39, 0.43, 0.40, 1)

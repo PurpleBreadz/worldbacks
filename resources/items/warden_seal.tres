@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="WBItemData" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/inventory/item_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "anchor_key"
+display_name = "The Warden's seal"
+description = "A broken guardian's oath. Opens the migration road to Mossback Vale."
+category = "key"
+stackable = false

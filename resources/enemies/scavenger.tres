@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="WBEnemyData" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/combat/enemy_data.gd" id="1"]
+[resource]
+script = ExtResource("1")
+display_name = "Rootwild Scavenger"
+max_health = 54.0
+max_posture = 65.0
+speed = 62.0
+damage = 13.0
+posture_damage = 22.0
+attack_range = 32.0
+detection_range = 190.0
+startup = 0.48
+active = 0.16
+recovery = 0.65
+reward = 2
+body_color = Color(0.46, 0.42, 0.33, 1)
